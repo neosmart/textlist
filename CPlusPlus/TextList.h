@@ -34,7 +34,7 @@ namespace NeoSmart
 		};
 
 		template<class T>
-		static std::string Make(const T& entities, ListFormat formatting = ListFormat::Default, std::string conjunction = "and", std::string separator = ",")
+		static std::string Make(const T& entities, std::string conjunction = "and", ListFormat formatting = ListFormat::Default, std::string separator = ",")
 		{
 			bool oxfordComma = ((formatting & ListFormat::OxfordSeparator) == ListFormat::OxfordSeparator) || conjunction.empty();
 			std::string space = " ";

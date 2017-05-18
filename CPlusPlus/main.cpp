@@ -37,7 +37,7 @@ int main(int argc, const char *argv[])
 				{
 					names.push_back(name);
 					TextList::ListFormat flags = (oxford ? TextList::ListFormat::OxfordSeparator : TextList::ListFormat::None);
-					auto textList = TextList::Make(names, flags, (conjunction ? "and" : ""));
+					auto textList = TextList::Make(names, (conjunction ? "and" : ""), flags);
 					printf(" %s\n", textList.c_str());
 				}
 				printf("\n");
