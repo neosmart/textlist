@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <AssemblyName>NeoSmart.TextList</AssemblyName>
+    <RootNamespace>NeoSmart.TextList</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <Authors>NeoSmart Technologies, Mahmoud Al-Qudsi</Authors>
+    <Company>NeoSmart Technologies</Company>
+    <Product>TextList</Product>
+    <PackageId>NeoSmart.TextList</PackageId>
+    <Description>Convert any list or IEnumerable to a properly formatted, plain-text list, with support for Oxford commas and different list item separators. Use "using static NeoSmart.TextList;" and call the extension method IEnumerable&lt;T&gt;.ToTextList() to return a string containing the formatted list of items.</Description>
+    <Summary>Convert any list or IEnumerable to properly-formatted, plain-text list with TextList. Efficiently generate a list of items with support for Oxford commas and different list item separators. Use namespace NeoSmart.TextList and call the extension method IEnumerable&lt;T&gt;.ToTextList() to return a string containing the list of items.</Summary>
+    <Copyright>Copyright NeoSmart Technologies 2017</Copyright>
+    <PackageLicenseUrl>https://cdn.rawgit.com/neosmart/TextList/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://cdn.rawgit.com/neosmart/TextList/</PackageProjectUrl>
+    <RepositoryUrl>https://cdn.rawgit.com/neosmart/TextList/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>textlist, text, oxford comma, formatting, list generator, english, grammar, extension method, extension methods, neosmart</PackageTags>
+    <PackageReleaseNotes>Initial release on NuGet.</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>
